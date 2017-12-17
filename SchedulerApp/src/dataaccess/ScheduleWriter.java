@@ -3,19 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package schedulerapp;
+package dataaccess;
 
 /**
  *
  * @author Nirmal
  */
-public class SchedulerApp {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+public interface ScheduleWriter {
+    void setdate(String event_date);
+    void settime(String event_time);
+    void setdiscription(String discription);
     
 }
